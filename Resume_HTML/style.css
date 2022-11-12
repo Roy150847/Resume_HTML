@@ -5,3 +5,20 @@
 .main img{
     border-radius: 50%;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: initial;
+    width: 100%;
+  }
+  
+  td, th {
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: black;
+    color: #ddd;
+}
